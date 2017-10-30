@@ -1,0 +1,30 @@
+body {
+  font-size: 22px;
+  color: seashell;
+  font-family: helvetica;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.fixed{
+  display: fixed;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  align-items: center;
+  margin-left: 10px;
+  display: fixed;
+}
+
+nav span{
+  margin-left: 25px;
+}
+
+a:link{
+  color: seashell;
+}
