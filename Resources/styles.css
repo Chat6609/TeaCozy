@@ -50,6 +50,12 @@ a:visited{
   width: 100%;
 }
 /* tea of the month part */
+#tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .tom img {
   height: 200px;
@@ -80,11 +86,15 @@ a:visited{
   margin-top: 75px;
   flex-direction: column;
 }
-
+.loco{
+  overflow: scroll;
+  overflow-x: hidden;
+}
 .loco div{
   background-color: black;
   display: inline-flex;
   justify-content: center;
+  align-items: center;
   width: 300px;
   flex-wrap: wrap;
   margin: auto 20px;
@@ -95,10 +105,23 @@ a:visited{
   width: 100%;
   margin: 20px auto;
 }
+#location h3 {
+  text-decoration: underline;
+}
 #location h2 {
   margin-bottom: 15px;
 }
 /*info cantact*/
 .contact {
   height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 25px;
+}
+
+footer {
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
 }
