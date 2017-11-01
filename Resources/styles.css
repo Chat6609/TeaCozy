@@ -69,3 +69,36 @@ a:visited{
 .tom h4 {
   margin-top: 10px;
 }
+/* time for location */
+
+#location{
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  height: 500px;
+  width: 75%;
+  margin: auto;
+  margin-top: 75px;
+  flex-direction: column;
+}
+
+.loco div{
+  background-color: black;
+  display: inline-flex;
+  justify-content: center;
+  width: 300px;
+  flex-wrap: wrap;
+  margin: auto 20px;
+  opacity: 1;
+}
+
+#location h4, #location h3 {
+  width: 100%;
+  margin: 20px auto;
+}
+#location h2 {
+  margin-bottom: 15px;
+}
+/*info cantact*/
+.contact {
+  height: 200px;
+}
